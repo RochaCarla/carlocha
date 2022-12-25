@@ -1,6 +1,14 @@
+import { ReactNode } from 'react';
+
 import { StyledContactComponent } from './styles';
 
-function ContactComponent({ contact }) {
+interface ContactProps {
+  icon: ReactNode;
+  text: string;
+  link?: string;
+}
+
+function ContactComponent({ contact }: { contact: ContactProps }) {
   return (
     <StyledContactComponent>
       <a href={contact.link} target="_blank" rel="noreferrer">
