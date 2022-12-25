@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { profile_image } from '../../../markdowns';
 import { device } from '../../styles/devices';
 
 export const CardContainer = styled.div`
@@ -104,7 +105,7 @@ export const HeaderBackground = styled.div`
 
 export const Image = styled.div`
   border-radius: 50%;
-  background-image: url('../../../images/profile.png');
+  background-image: ${'url(' + profile_image + ')'};
   background-position: 0 0;
   background-size: cover;
 

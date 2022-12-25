@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   AiOutlineEnvironment,
   AiOutlineGithub,
@@ -90,6 +91,8 @@ export const interests = [
   'Open Source community',
   'Project-Oriented teaching',
 ];
+
+export const profile_image = '/assets/images/profile.png';
 
 export const contacts = [
   {
