@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 
 import { pages } from '../markdowns';
@@ -8,7 +8,7 @@ import Layout from './components/Layout';
 import MyThemeProvider, { useThemes } from './hooks/useTheme';
 import { GlobalStyle } from './styles/global';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Layout />,

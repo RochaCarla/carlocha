@@ -24,4 +24,4 @@ Dra. Carla Rocha is an assistant professor at the [University of Brasília (UnB)
 - Github: [RochaCarla](https://github.com/RochaCarla)
 - Scholar: [CarlaRocha](https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=en)
 
-![lappis](/assets/images/lappis.png)
+![lappis](/carlocha/assets/images/lappis.png)

@@ -15,4 +15,4 @@ I write mostly about the research projects I am involved and teaching/academic l
 
 <hr/>
 
-![lappis](/assets/images/lappis.png)
+![lappis](/carlocha/assets/images/lappis.png)

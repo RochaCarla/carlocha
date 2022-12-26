@@ -28,7 +28,7 @@ export const interests = [
   'Project-Oriented teaching',
 ];
 
-export const profile_image = '/assets/images/profile.png';
+export const profile_image = '/carlocha/assets/images/profile.png';
 
 export const contacts = [
   {
@@ -69,21 +69,6 @@ export const pages = [
     name: 'About',
   },
   {
-    element: <Blog />,
-    path: 'blog/',
-    name: 'Blog',
-  },
-  {
-    element: <Students />,
-    path: 'students/',
-    name: 'Students',
-  },
-  {
-    element: <Teaching />,
-    path: 'teaching/',
-    name: 'Teaching',
-  },
-  {
     element: <Projects />,
     path: 'projects/',
     name: 'Projects',
@@ -94,9 +79,24 @@ export const pages = [
     name: 'Publications',
   },
   {
+    element: <Teaching />,
+    path: 'teaching/',
+    name: 'Teaching',
+  },
+  {
+    element: <Blog />,
+    path: 'blog/',
+    name: 'Blog',
+  },
+  {
     element: <Reading />,
     path: 'research/',
     name: 'Research',
+  },
+  {
+    element: <Students />,
+    path: 'students/',
+    name: 'Students',
   },
   {
     element: <Misc />,

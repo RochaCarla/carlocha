@@ -46,4 +46,4 @@ author_profile: true
   from Free Software Foundation Europe.
   The translation in portuguese - [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf).
 
-![dinheiro](/assets/images/publico.png)
+![dinheiro](/carlocha/assets/images/publico.png)
