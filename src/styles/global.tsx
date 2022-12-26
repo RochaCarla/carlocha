@@ -91,6 +91,7 @@ export const GlobalStyle = createGlobalStyle`
 
   :root {
     --background: ${({ theme }) => theme.color.background};
+    --background-md-image: ${({ theme }) => theme.color.background_md_image};
     --background-profile-card: ${({ theme }) => theme.color.background_profile_card};
     --primary: ${({ theme }) => theme.color.primary};
     --pure-primary: ${({ theme }) => theme.color.pure_primary};
@@ -102,10 +103,16 @@ export const GlobalStyle = createGlobalStyle`
     --shadow: ${({ theme }) => theme.color.shadow};
   }
 
+  a:hover {
+    color: var(--secondary);
+  }
+
   /* Control images size */
   img[alt=lappis], img[alt=image], img[alt=parcerias], img[alt=dinheiro] {
     width: 100%;
     margin: 0 auto;
+    background-color: var(--background-md-image);
+    border-radius: 10px;
     
     @media ${device.tablet} {
       max-width: 500px;

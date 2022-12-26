@@ -5,6 +5,7 @@ export default {
     pure_primary: '#66CAB6',
     secondary: '#3FB7D1',
     background: '#222128',
+    background_md_image: '#FFFAFB',
     background_profile_card: '#282B37',
     shadow: 'rgb(0 0 0 / 0.2)',
 

@@ -5,6 +5,7 @@ declare module 'styled-components' {
     name: string;
     color: {
       background: string;
+      background_md_image: string;
       background_profile_card: string;
       primary: string;
       pure_primary: string;
