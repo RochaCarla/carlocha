@@ -1,8 +1,8 @@
 export default {
   name: 'dark',
   color: {
-    primary: 'linear-gradient(90deg, #66CAB6 0%, #66CAB6 100%)',
-    pure_primary: '#66CAB6',
+    primary: 'linear-gradient(90deg, #3E8DF4 0%, #2A4FBF 100%)',
+    pure_primary: '#2A4FBF',
     secondary: '#3FB7D1',
     background: '#222128',
     background_md_image: '#FFFAFB',
@@ -11,6 +11,6 @@ export default {
 
     title: '#FFFCFC',
     text: '#FFFCFC',
-    text_inverse: '#282B37',
+    text_inverse: '#FFFCFC',
   },
 };

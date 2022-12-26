@@ -15,49 +15,6 @@ import Reading from './reading.md';
 import Students from './students.md';
 import Teaching from './teaching.md';
 
-export const pages = [
-  {
-    element: <About />,
-    path: '/',
-    name: 'About',
-  },
-  {
-    element: <Blog />,
-    path: 'blog/',
-    name: 'Blog',
-  },
-  {
-    element: <Students />,
-    path: 'students/',
-    name: 'Students',
-  },
-  {
-    element: <Teaching />,
-    path: 'teaching/',
-    name: 'Teaching',
-  },
-  {
-    element: <Projects />,
-    path: 'projects/',
-    name: 'Projects',
-  },
-  {
-    element: <Publications />,
-    path: 'publications/',
-    name: 'Publications',
-  },
-  {
-    element: <Reading />,
-    path: 'research/',
-    name: 'Research',
-  },
-  {
-    element: <Misc />,
-    path: 'misc/',
-    name: 'Misc',
-  },
-];
-
 export const name = 'Carla Rocha';
 export const description =
   'Software Engineering Professor & Researcher at the University of Brasília (UnB)';
@@ -102,5 +59,48 @@ export const contacts = [
     icon: <AiOutlineLinkedin size={24} />,
     text: 'RochaCarla',
     link: 'https://www.linkedin.com/in/carla-rocha-a4287a19/',
+  },
+];
+
+export const pages = [
+  {
+    element: <About />,
+    path: '/',
+    name: 'About',
+  },
+  {
+    element: <Blog />,
+    path: 'blog/',
+    name: 'Blog',
+  },
+  {
+    element: <Students />,
+    path: 'students/',
+    name: 'Students',
+  },
+  {
+    element: <Teaching />,
+    path: 'teaching/',
+    name: 'Teaching',
+  },
+  {
+    element: <Projects />,
+    path: 'projects/',
+    name: 'Projects',
+  },
+  {
+    element: <Publications />,
+    path: 'publications/',
+    name: 'Publications',
+  },
+  {
+    element: <Reading />,
+    path: 'research/',
+    name: 'Research',
+  },
+  {
+    element: <Misc />,
+    path: 'misc/',
+    name: 'Misc',
   },
 ];
