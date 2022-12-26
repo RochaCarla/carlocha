@@ -16,7 +16,6 @@ export const NavBarContainer = styled.nav`
   align-items: center;
   gap: 0rem;
   margin: 0.5rem 0 1rem 0;
-  box-shadow: 0px 0px 10px 0px gray;
 
   @media ${device.tabletS} {
     margin-bottom: 2rem;
@@ -40,6 +39,7 @@ export const Link = styled(NavLink)`
 
   &:hover {
     border: 2px solid var(--background);
+    color: var(--text-inverse);
   }
 
   @media ${device.tabletS} {

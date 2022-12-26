@@ -39,6 +39,10 @@ export const OutletContainer = styled.div`
   }
   & > .markdown-body * a {
     color: var(--primary);
+
+    &:hover {
+      color: var(--secondary);
+    }
   }
 
   @media ${device.tabletS} {
