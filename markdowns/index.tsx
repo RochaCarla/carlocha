@@ -7,8 +7,6 @@ import {
   AiOutlineMail,
 } from 'react-icons/ai';
 
-// import { useEffect, useState } from 'react';
-// import ReactMarkdown from 'react-markdown';
 import About from './about.md';
 import Blog from './blog.md';
 import Misc from './misc.md';
@@ -17,24 +15,6 @@ import Publications from './publications.md';
 import Reading from './reading.md';
 import Students from './students.md';
 import Teaching from './teaching.md';
-
-// const markdown = `Just a link: https://reactjs.com.`;
-
-// const AboutComponent = () => {
-//   const [content, setContent] = useState('');
-//   console.log(content);
-
-//   useEffect(() => {
-//     import('./about.md').then((res) => {
-//       fetch(res.default)
-//         .then((r) => r.text())
-//         .then((r) => setContent(r))
-//         .catch((e) => console.log(e));
-//     });
-//   }, []);
-
-//   return <ReactMarkdown>{content}</ReactMarkdown>;
-// };
 
 export const pages = [
   {

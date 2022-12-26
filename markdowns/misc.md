@@ -32,7 +32,7 @@ author_profile: true
 
 ## Open Source
 
-- [Chatbot Boilerplate for Brazilian Portuguese](https://github.com/lappis-unb/rasa-ptbr-boilerplate). arquitetura boilerplate de um produto chatbot utilizando o framework [Rasa](www.rasa.com), configurado para a língua Portuguesa.
+- [Chatbot Boilerplate for Brazilian Portuguese](https://github.com/lappis-unb/rasa-ptbr-boilerplate). arquitetura boilerplate de um produto chatbot utilizando o framework [Rasa](https://www.rasa.com), configurado para a língua Portuguesa.
 
 - [Escola em Casa](https://github.com/Escola-em-Casa) - Concede acesso gratuito, através de dados patrocinados, aos recursos necessários para a realização do ensino à distância da Secretaria de Educação do Distrito Federal.
 
